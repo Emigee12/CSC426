@@ -1,4 +1,6 @@
 1.0 Introduction
+
+
 1.1 Objective
 This specification details the functional and technical criteria for the Incident Reporting 
 Platform (IRP). The system serves as a lightweight web utility built to streamline communication 
@@ -8,13 +10,19 @@ Questionnaire link:
 https://docs.google.com/forms/d/e/1FAIpQLSf1ZFHpXluuustGWho0IfMdx_PnXCEJkPExpJD9211
 9yiM4LQ/viewform
 Short link: https://tinyurl.com/emigeequestionnaire
-1.1 System Boundary
+
+
+1.2 System Boundary
 The IRP is engineered as a responsive Single Page Application (SPA) focused on logging 
 localized events and publishing them instantly to a secure public dashboard. To facilitate 
 rapid prototyping and testing, data persistence relies entirely on client-side browser 
 memory (localStorage), ensuring user anonymity, minimal infrastructure overhead, and 
 instantaneous data rendering.
+
+
 2.0 General Architecture & Users
+
+
 2.1 Deployment Environment
 The platform executes exclusively as a front-end web application running natively inside 
 modern desktop and mobile browsers, including Apple Safari, Google Chrome, Microsoft Edge, 
